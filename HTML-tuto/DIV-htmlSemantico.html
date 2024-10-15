@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantico</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+        }
+        .topo{
+            background-color: gray;
+            padding: 20px;
+            text-align: center;
+        }
+        .menu{
+            background-color: #333;
+            overflow: hidden;
+        }
+        .menu a{
+            color:white;
+            padding:14px 16px;
+            float:left;
+            display:block;
+            text-decoration: none;
+        }
+        .coluna-50{
+            float:left;
+            width:50%;
+            padding: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header class="topo">
+    <h1>Topo</h1>
+    <p>
+        Aqui a parte do topo
+    </p>
+</header>
+
+<nav class="menu">
+    <a href="/CSS/CSS-index.html">CSS</a>
+    <a href="index.html">Index</a>
+    <a href="/CSS/CSS-index.html">CSS</a>
+    <a href="index.html">Index</a>
+
+</nav>
+<section class="coluna-50">
+    <h1>Coluna - DIV é tag neutra</h1>
+    <p>A DIV ela é genérica, podendo ser "substituida" por tags semânticas! <br> Por exemplo, o TOPO pode ter sua tag -div- substituida por -HEADER-, as colunas podem ter sua tag -div- substituida por -section-<br> O menu pode ter sua tag DIV generica substituida por -nav- <br> Caso houvesse um rodapé na pagina, o div dele poderia ser substituido por -footer-<br> DIVS E TAGS SEMANTICAS SÃO ESTILIZADAS COM CSS, elas não tem um visual próprio</p>
+    <h3> Principais tags semanticas</h3>
+<p>
+    article: Define conteúdo independente e autônomo.<br>
+    aside: Define conteúdo à parte do conteúdo da página.<br>
+    details: Define detalhes adicionais que o usuário pode visualizar ou ocultar.<br>
+    figcaption: Define uma legenda para um elemento --.<br>
+    figure: Especifica conteúdo autônomo, como ilustrações, diagramas, fotos, listagens de código, etc.<br>
+    footer: Define um rodapé para um documento ou seção.<br>
+    header: Especifica um cabeçalho para um documento ou seção.<br>
+    main: Especifica o conteúdo principal de um documento.
+    mark: Define texto marcado/destacado.<br>
+    nav: Define links de navegação.<br>
+    section: Define uma seção em um documento.<br>
+    summary: Define um cabeçalho visível para um elemento -details-. <br>
+    time: Define uma data/hora.  
+    
+
+    </p>
+</section>
+<section class="coluna-50">
+    <h1>Coluna - TAG Semantica</h1>
+    <p>É interessante usar a TAG semantica para melhorar o entendimento do site, uma pessoa que pega o seu código para ler consegue entender bem melhor uma tag já estabelecida a uma tag genérica<br> Com div, é possível construir qualquer tipo de conteúdo, e ela é bem utilizada, porém deve saber julgar se a tag continuará sendo -div- ou se há alguma tag semantica para deixar mais claro o entendimento</p> <br>
+    <img src="img/elementossemanticos.gif">
+    
+
+</section>
+
+<h3> RECOMENDO OLHAR O CÓDIGO FONTE PARA ENTENDER MELHOR DIVS!</h3>
+
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro site</title>
+    <link rel="stylesheet" href="/CSS/estilo.css">
+</head>
+<body >
+
+    <h1>Lembrete!</h1>
+<hr>
+<p>Aqui estará um tutorial rápido em forma de lembrete para caso eu me esqueça de algumas tags e funcionalidades</p>
+<a href="/CSS/CSS-index.html"target="_blank">CSS</a>
+
+<hr>
+<h1>HTML</h1>
+<h2> Formatação de texto</h2>
+<p>Negrito: -b-  <b>Negrito</b> <br>
+Linha divisória: -hr- <br>
+Pular linha: -br- <br>
+Deixar pequeno: -small- <small>Pequeno</small><br>
+Riscado: -del- <del>Riscado</del><br>
+Texto na parte superior: -sup- 1<sup>2</sup><br>
+Texto na parte inferior: -sub- 1<sub>2</sub><br>
+Marcação amarela: -mark- <mark>Marcado</mark><br>
+Espaco entre palavras: & nbsp;
+
+</p>
+<hr>
+
+<h2>Links</h2>
+<p>-a href="CSS.html" target="_blank">Sobre nós a-<br> 
+    <a href="/CSS/CSS-index.html" target="_blank">CSS!</a><br>
+    target=_blank abrirá o link em uma nova guia
+</p>
+ <hr>
+
+ <h2>Imagens</h2>
+ <p>É possível inserir imagens de duas maneiras: Usando um arquivo local da maquina ou uma imagem online já hospedada</p>
+ <p>-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulnOkcc-hv8l4hKhKvk8Jqme9YRtGeESHOg&s"</p>
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQulnOkcc-hv8l4hKhKvk8Jqme9YRtGeESHOg&s">
+ Essa imagem está ligada a outro site <br>
+ <p> Para colocar uma imagem direto do seu PC, será necessário criar um novo diretório na pasta onde está seu site </p>
+ -img src="img/jonkler.png" <br>
+ <img src="img/jonkler.png"> 
+ <p>É possível ajustar as dimensões da imagem usando WIDTH(Largura) e HEIGHT(Altura)</p>
+ -img src="img/jonkler.png" width="300" height="300"<br> 
+ <img src="img/jonkler.png" width="300" height="300">
+ <hr>
+
+ <h2>Tabelas</h2>
+ 
+
+ TR= ("table row" ou "linha da tabela".Cria uma nova linha dentro de uma tabela) <br>
+ TH= ("table header" ou "cabeçalho da tabela".Usada para definir as células que funcionam como títulos para linhas ou colunas de uma tabela.) <br>
+ TD= ("table data". Dados da tabela)<br>
+ 
+ <br>
+       -table-  <br>
+       -tr-
+       -th- nome -/th-<br>
+       -th- Idade -/th-<br>
+       -th Peso -/th- <br>
+       -/tr- <br>
+        
+       -tr-<br>
+       -td- Jurema -/td-<br>
+       -td- 19 -/td <br>
+       -td 80 -/td <br>
+    -/tr-
+       <table>
+        <tr>
+        <th> Nome</th>
+        <th>Idade</th>
+        <th>Peso</th>
+        </tr> 
+
+        <tr>
+            <td> Jurema </td>
+            <td>19</td>
+            <td>80</td>
+        </tr>
+
+
+
+       </table>
+       <br>
+       É possível mexer no WIDTH e adicionar bordas
+       -table width="50%" border="1"
+
+       <table width="50%" border="1">
+        <tr>
+        <th> Nome</th>
+        <th>Idade</th>
+        <th>Peso</th>
+        </tr> 
+
+        <tr>
+            <td> Jurema </td>
+            <td>19</td>
+            <td>80</td>
+        </tr>
+
+
+
+       </table>
+       A estilização é possível com CSS      
+ 
+    <hr>
+
+    
+    <h2> Listas</h2>
+    <p>ul= Unordered list<br> 
+        ol= Ordered list<br>
+        li= List Item<br>
+        
+    <h3>Lista não ordenada</h3>
+    
+    </p>
+    <p> -ul-<br>
+        -li arroz /li-<br>
+        -li feijão /li-<br>
+        -li macarrão /li-<br>
+        -/ul-
+    </p>
+    <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+    </ul>
+
+    <h3>Lista ordenada</h3>
+    <p>
+        -ol-<br>
+        -li arroz /li<br>
+        -li feijão /li-<br>
+        -li macarrão /li-<br>
+
+
+    </p>
+    <ol>
+        <li>Arroz</li> 
+        <li>Feijão</li>
+        <li>Macarrão</li>
+
+    </ol>
+    <hr>
+    
+    <h2>iFrames</h2>
+
+<p> Permite a inclusão de outro HTML dentro do primeiro, a partir da pagina inicial é possivel abrir uma seção de outra página qualuer </p>
+
+
+-iframe src="CSS.HTML" title="teste123">Meu iframe-/iframe/ <br>
+
+<iframe src="/CSS/CSS-index.html"title="teste123">Meu iframe</iframe> <br>
+<p>Para colocar um video do youtube para o iframe, deverá clicar com o botão direito e copiar incorporação</p>
+
+<iframe width="300" height="300" src="https://www.youtube.com/embed/950--yP4SVg" title="JÁ ERA | Seu Pereira e Coletivo 401" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<p>iFrames também podem ter suas dimensões alteradas usando WIDTH e HEIGHT</p>
+
+<hr>
+
+<h2> Formulários</h2>
+
+<form action="" method="">
+    <!-- Legenda para nome -->
+    <label for="campo_nome">Nome:</label><br>
+    <!-- CAMPO INPUT DO TYPE TEXT -->
+    <input id="campo_nome" type="text" placeholder="Digite seu nome aqui" required>
+<br>
+<br>
+<!-- Legenda para senha -->
+    <label for="campo_senha">senha:</label><br>
+
+    <!-- Campo input do type password -->
+    <input id="campo_senha" type="password" placeholder="Digite uma senha" required>
+    <br>
+<br>
+
+<!-- Legenda para email -->
+    <label for="campo_email">Email:</label><br>
+
+    <!-- CAmpo input do type email -->
+    <input id="campo_email" type="email" placeholder ="Digite seu email" required> <br>
+    <br>
+     
+    <h3>Animal de estimação</h3>
+    <input type="radio" name="animal" id="dog"
+    value="Cachorro">
+    <label for="dog">Cachorro</label>
+
+    <input type="Radio" name="animal" id="cat"
+    value="Gato">
+    <label for="cat">Gato</label>
+
+
+    <input type="Radio" name="animal" id="bird" value="Passaro">
+    <label for="bird">Passarinho</label>
+    <br><br>
+
+    
+    <input id="item1" type="checkbox" name="item1" value="TV">
+    <label for="item1">Televisao</label>
+    <br>
+    <input id="item2" type="checkbox" name="item2" value="Geladeira">
+    <label for="item2">Geladeira</label><br>
+
+    <input id="item3" type="checkbox" name="item3" value="Computador">
+    <label for="item3">COmputador</label>
+    <br>
+    <br>
+
+
+    
+
+<!-- Campo input do type submit -->
+    <input type="submit" value="Enviar informaçoes">
+
+
+
+
+
+
+</form>
+
+<hr>
+
+<h2> Audio</h2>
+<audio controls>
+    <source src="audio/bonk.mp3" type="audio/mpeg">
+    
+</audio>
+<p>-audio controls- <br>
+    -source src ="audio/bonk.mp3"<br>
+   type="audio/mpeg"-<br>
+      -/audio-<br>
+      MPEG foi utilizado pois é MP3, caso fosse wav seria utilizado audio/wav<br>
+      Para retirar os pontinhos de download terá que adicionar -audio controls controlsList="nodownload"-
+   
+   </p>
+
+   <hr>
+   
+   <h2>Video</h2>
+
+   <video poster="img/jonkler.png "width="50%" autoplay  controls>
+    <source src="video/aula-video.mp4" type="video/mp4">
+
+   </video>
+
+   <p>
+    video poster="img/jonkler.png "width="50%" autoplay  controls- <br>
+        -source src="video/aula-video.mp4" type="video/mp4"-
+
+
+    </p>
+<hr>
+
+
+<h2>Div e HTML Semântico</h2>
+
+<p> Uma DIV (divisória) é como se fosse um bloco, uma tag neutra, geralmente é utilizada com CSS para ser estilizada<br> Será feita em outra aba para melhor entendimento da estrutura</p>
+<a href="DIV-htmlSemantico.html" target="_blank">Clique aqui!</a>
+
+
+
+
+   <br><br>
+
+
+
+
+
+
+
+
+<p>
+
+</p>
+
+
+
+
+
+
+
+</body>
+</html>

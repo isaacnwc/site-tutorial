@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(229, 209, 248);
+     
+}
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+.center{
+    text-align:center;
+
+}
+.vermelho{
+    color:red;
+}
+.fonte-30{
+    font-size: 30px;
+}
+#teste1{
+    color: aqua;
+    background: firebrick;
+}
+.exemplo-back{
+    height: 300px;
+    background-color: gray;
+    background-image:url(img/backgroundteste.jpeg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.exemplo-border{
+    border-top:10px solid rgb(192, 47, 47);
+    border-left:10px solid rosybrown;
+    border-right: 10px solid olivedrab;
+    border-bottom: 10px solid cornflowerblue;
+    border-radius: 50px;
+    text-align: center;
+}
+.exemplo-margin{
+    /*margin-top:49px;
+    margin-bottom:48px;
+    margin-left: 47px;
+    margin-right: 46px; */
+    margin: 49px 46px 48px 47px;
+     /*TOPO,DIREITA,BAIXO,ESQUERDA  */
+}
