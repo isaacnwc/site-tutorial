@@ -7,6 +7,20 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    border-top:10px solid rgb(192, 47, 47);
+    border-left:10px solid rosybrown;
+    border-right: 10px solid olivedrab;
+    border-bottom: 10px solid cornflowerblue;
+    border-radius: 50px;
+    text-align: center;
+    background:url("/CSS/img/bgpreto.jpg");
+    background-size: cover;
+    color:white;
+
+}
+
+
 .center{
     text-align:center;
 
@@ -44,4 +58,26 @@ h1{
     margin-right: 46px; */
     margin: 49px 46px 48px 47px;
      /*TOPO,DIREITA,BAIXO,ESQUERDA  */
+}
+.exemplo-padding{
+    /* padding-top:50px;
+    padding-right:49px;
+    padding-bottom:48px;
+    padding-left: 47px; */
+    padding:50px 49px 48px 47px;
+}
+.botao{
+    margin-left: 2%;
+    margin-bottom:1%;
+    background-color:green;
+    color:white;
+    padding:30px;
+    border-radius:20px;
+    text-decoration:none;
+    text-align:center;
+
+
+}
+.botao:hover{
+    background:blue;   
 }
